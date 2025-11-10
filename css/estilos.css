@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    height: 70px;
+    background-color: black;
+    justify-content:space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.header {
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.cabecera {
+    background-image: url(../recursos/pc.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: top;
+    height: 500px;
+}
+
+.cabecera2 {
+    background-image: url(../recursos/cpuINFO.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    
+}
+
+.cabecera3 {
+    background-image: url(../recursos/GPU2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+
+}
+
+.cabecera4 {
+    background-image: url(../recursos/RAM.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+
+}
+
+.cabecera5 {
+    background-image: url(../recursos/contact.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: bottom; /* Cambia esto */
+    border: none; /* Añade esto */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    padding: 10px 0; /* Añade esto */
+}
+
+.quitarFormato {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -decoration: none
+
+}
+
+img:hover{
+    transform:scale(1.5);
+}
+
+#miCelda {
+    background-color: #e3e8fc;
+    border-radius: 90px;
+    padding: 50px;
+}
+
+#miSubCelda {
+    background-color: #cbe6d4;
+    border-radius: 90px;
+    padding: 50px;
+}
+
+#miIntel {
+    background-color: red;
+    border-radius: 40px;
+    padding: 50px;
+}
+
+#miAMD {
+    background-color: blue;
+    border-radius: 40px;
+    padding: 50px;
+}
